@@ -3,10 +3,25 @@
 	<PropertyGroup>
 		<TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
 		<Title>Muzi.Export</Title>
-		<Version>0.1.0</Version>
+		<Version>1.0.0</Version>
 		<Authors>Muzi</Authors>
-		<Description>基于 NPOI 封装的Excel 导出</Description>
+		<Description>基于 NPOI 封装的Excel 导出,像 Bootstrap Table 一样好用</Description>
+		<PackageProjectUrl>https://github.com/TomatoDAIXIA/Excel.EasyExport        https://gitee.com/tomato23132313/Excel.EasyExport</PackageProjectUrl>
+		<PackageIcon>fanqie.png</PackageIcon>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/TomatoDAIXIA/Excel.EasyExport</RepositoryUrl>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="D:\zhuomian\fanqie.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="NPOI" Version="2.5.6" />
